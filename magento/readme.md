@@ -1,3 +1,3 @@
-# LogicSpot Magento Guidelines
+# LogicSpot Magento Standards
 
 ## Table of Contents

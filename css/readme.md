@@ -1,4 +1,4 @@
-# LogicSpot CSS / Sass Styleguide
+# LogicSpot CSS / Sass Standards
 
 A mostly reasonable approach to CSS and Sass
 

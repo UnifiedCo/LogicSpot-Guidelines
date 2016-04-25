@@ -1,3 +1,3 @@
-# LogicSpot JavaScript Styleguide
+# LogicSpot JavaScript Standards
 
 ## Table of Contents

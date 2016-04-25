@@ -1,3 +1,3 @@
-# LogicSpot PHP Styleguide
+# LogicSpot PHP Standards
 
 ## Table of Contents
