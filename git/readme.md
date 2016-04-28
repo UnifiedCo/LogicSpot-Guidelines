@@ -22,6 +22,7 @@
 ### Support Workflow Diagram
 
 ![LogicSpot GIT Workflow](https://raw.githubusercontent.com/LogicSpot/LogicSpot-Guidelines/master/git/gitflow.png)
+
 This diagram was created using [draw.io](https://www.draw.io/), this directory contains an .xml file you can upload to amend the image.
 
 ## Project Workflow
