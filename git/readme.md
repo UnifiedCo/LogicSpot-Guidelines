@@ -32,7 +32,7 @@ This diagram was created using [draw.io](https://www.draw.io/), this directory c
  1. Work MUST be branched off of **staging**
  1. Epic branches MUST be prefixed with **epic/**
  1. Feature branches MUST be prefixed with **feature/**
- 1. Hotfix branches MUST be prefixed with **hotfix/**
+ 1. Hotfix branches MUST be prefixed with **fix/**
  1. Release branches MUST be pulled together in a branch prefixed with **release/**
  1. Epic branches should be used until that sprint is completed, and then feature branches used for smaller follow up pieces of work/fixes
  1. Releases should follow the following number convention: v{project-number}.{sprint-number}.{release-number}(optional .{release-fixes-number})
