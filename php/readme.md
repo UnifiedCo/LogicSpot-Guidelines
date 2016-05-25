@@ -4,3 +4,4 @@ These standards expand upon the [PSR-2](https://github.com/php-fig/fig-standards
 
 - Code MUST use tabs, not spaces
 - Autoloading follows [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md) standards
+- Array values should leave a trailing comma
