@@ -52,7 +52,7 @@ Blank spaces should always be used in the following circumstances:
 
 Every statement should begin aligned with the current indentation. The outermost level is at the left margin. The indentation increases by 4 spaces when the last token on the previous line is { left brace, [ left bracket, ( left paren. The matching closing token will be the first token on a line, restoring the previous indentation.
 
-The ternary operator can be visually confusing, so ? question mark always begins a line and increase the indentation by 4 spaces, and : colon always begins a line, aligned with the ? question mark.
+The ternary operator can be visually confusing when nesting, so if you're nesting `?` question mark always begins a line and increase the indentation by 4 spaces, and : colon always begins a line, aligned with the ? question mark.
 
 ```javascript
 var integer = function (
