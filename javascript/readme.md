@@ -91,7 +91,7 @@ Generally use line comments. Save block comments for formal documentation.
 
 ## Variable Declarations
 
-All variables should be declared before used. JavaScript does not require this, but doing so makes the program easier to read and makes it easier to detect undeclared variables that may become implied. Implied global variables should never be used. Use of global variables should be minimized.
+All variables should be declared before use. JavaScript does not require this, but doing so makes the program easier to read and makes it easier to detect undeclared variables that may become implied. Implied global variables should never be used. Use of global variables should be minimized.
 
 The var statement should be the first statement in the function body.
 
