@@ -50,7 +50,7 @@ Blank spaces should always be used in the following circumstances:
 - Each `;` semicolon at the end of a statement should be followed with a line break.
 - Each `;` semicolon in the control part of a for statement should be followed with a space.
 
-Every statement should begin aligned with the current indentation. The outermost level is at the left margin. The indentation increases by 4 spaces when the last token on the previous line is { left brace, [ left bracket, ( left paren. The matching closing token will be the first token on a line, restoring the previous indentation.
+Every statement should begin aligned with the current indentation. The outermost level is at the left margin. The indentation increases by 4 spaces when the last token on the previous line is `{` left brace, `[` left bracket, `(` left paren. The matching closing token will be the first token on a line, restoring the previous indentation.
 
 The ternary operator can be visually confusing when nesting, so if you're nesting `?` question mark always begins a line and increase the indentation by 4 spaces, and : colon always begins a line, aligned with the ? question mark.
 
@@ -74,7 +74,7 @@ Avoid excessively long lines. When a statement will not fit nicely on a single l
 
 Clauses (`case`, `catch`, `default`, `else`, `finally`) are not statements and so should not be indented like statements.
 
-Tabs and spaces should not be mixed. We should pick just one in order to avoid the problems that come from having both. Personal preference is an extremely unreliable criteria. Neither the tab nor the space offers a powerful advantage over the other. Fifty years ago, tab had the advantage of consuming less memory, but Moore's Law has eliminated that advantage. Space has one clear advantage over tab: there is still no reliable standard for how many spaces a tab represents, but it is universally accepted that a space occupies a space. So always use spaces. You can edit with tabs if you must, but make sure it is spaces again before you commit. Maybe someday we will finally get a universal standard for tabs, but until that day comes, the better choice is spaces.
+Tabs should be used for indentation, this should be enforced by the [.editorconfig](#https://github.com/LogicSpot-Guidelines/blob/master/.editorconfig) file.
 
 ## Comments
 
