@@ -308,10 +308,10 @@ A switch statement should have the following form:
 
 ```javascript
 switch (expression) {
-case expression:
-    statements
-default:
-    statements
+    case expression:
+        statements
+    default:
+        statements
 }
 ```
 
