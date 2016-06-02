@@ -220,11 +220,27 @@ Compound statements are statements that contain lists of statements enclosed in 
 - The enclosed statements should be indented four more spaces.
 - The `{` left curly brace should be at the end of the line that begins the compound statement.
 - The `}` right curly brace should begin a line and be indented to align with the beginning of the line containing the matching `{` left curly brace.
-- Braces should be used around all statements, even single statements, when they are part of a control structure, such as an if or for statement. This makes it easier to add statements without accidentally introducing bugs.
+- Braces should be used around all statements, even single statements, when they are part of a control structure, such as an `if` or `for` statement. This makes it easier to add statements without accidentally introducing bugs.
 
 ### Labels
 
 Statement labels should be avoided. Only these statements should be labeled: `while`, `do`, `for`, `switch`.
+
+```javascript
+var itemsPassed = 0;
+var i, j;
+
+top:
+for (i = 0; i < items.length; i++){
+  for (j = 0; j < tests.length; j++) {
+    if (!tests[j].pass(items[i])) {
+      continue top;
+    }
+  }
+
+  itemsPassed++;
+}
+```
 
 ### return Statement
 
