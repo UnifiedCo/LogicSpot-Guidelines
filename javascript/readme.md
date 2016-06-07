@@ -143,7 +143,7 @@ function getElementsByClassName(className) {
 }
 ```
 
-If a function literal is anonymous, there should be one space between the word function and the ( left parenthesis. If the space is omitted, then it can appear that the function's name is function, which is an incorrect reading.
+If a function literal is anonymous, there should be one space between the word function and the `(` left parenthesis. If the space is omitted, then it can appear that the function's name is function, which is an incorrect reading.
 
 ```javascript
 div.onclick = function (e) {
@@ -300,7 +300,7 @@ do {
 } while (condition);
 ```
 
-Unlike the other compound statements, the do statement always ends with a ; semicolon.
+Unlike the other compound statements, the do statement always ends with a `;` semicolon.
 
 ### switch Statement
 
