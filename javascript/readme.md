@@ -24,6 +24,7 @@ These rules are based on [Code Conventions for the JavaScript Programming Langua
     - [try Statement](#try-statement)
     - [continue Statement](#continue-statement)
     - [with Statement](#with-statement)
+    - [Yoda Conditionals](#yoda-conditionals)
 1. {} and []
 	- , comma Operator
 	- [Assignment Expressions](#assignment-expressions)
@@ -346,6 +347,16 @@ Avoid use of the continue statement. It tends to obscure the control flow of the
 ### with Statement
 
 The with statement should not be used.
+
+### Yoda Conditionals
+
+When doing a logical comparisons you must put the variable on the right side and constants or literals on the left side.
+
+```
+if ( undefined === yodaQuote ) {
+    var yodaQuote = 'That is why you fail.';
+}
+```
 
 ## {} and []
 
