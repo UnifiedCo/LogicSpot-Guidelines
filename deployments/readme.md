@@ -27,3 +27,14 @@ and bower components before compiling asssets.
 - Test the primary user flow.
     - Homepage -> Category Page -> Product Page -> Adding to cart -> Viewing cart (if enabled) -> Going to checkout
 - Send tickets to AM for a second round of testing and to inform the client.
+
+## Considerations
+
+Think about what you're deploying and the risks involved.
+
+- Will an SFTP deployment possibly cause errors while deploying? 
+e.g deploying > 100 files which will fatal when files upload in the wrong order.
+- Is the logs accessible, or too large to easily read / handle if an error occurs.
+- Will you be able to rollback, or will DB changes mean you can't.
+- Does the site need to go into maintenance because of installers / reindexing etc.
+- Is a holding page available if the site goes down?
